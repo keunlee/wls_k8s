@@ -16,3 +16,7 @@ fmw_12.2.1.3.0_wls.jar
 
 Edit the NewDomain.properties to customize your domain. 
 
+### 3. Build the new Docker image
+
+docker build -t <docker_repository>/<name>:<tag> .
+  
